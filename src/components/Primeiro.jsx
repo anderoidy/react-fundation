@@ -1,5 +1,8 @@
-function Primeiro() {
-    return "Primeiro"
-}
+import React from "react"
 
-export default Primeiro
+export default () => 
+<>
+            <h1>Primeiro Componente</h1>
+            <h2>Exemplo de um component em React</h2>
+</>
+    
