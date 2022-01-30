@@ -1,13 +1,13 @@
 import "./App.css";
 import React from "react";
 
-import Primeiro from "./components/Primeiro";
-import CompParametro from "./components/CompParametro";
-import CompFilhos from "./components/CompFilhos";
+import Primeiro from "./components/basicos/Primeiro";
+import CompParametro from "./components/basicos/CompParametro";
+import CompFilhos from "./components/basicos/CompFilhos";
 import Card from "./components/layout/Card";
-import Repeticao from "./components/Repeticao";
-import CondicionalComTernario from "./components/CondicionalComTernario";
-import CondicionalComIf from "./components/CondicionalComIf";
+import Repeticao from "./components/basicos/Repeticao";
+import CondicionalComTernario from "./components/basicos/CondicionalComTernario";
+import CondicionalComIf from "./components/basicos/CondicionalComIf";
 
 export default (props) => (
   <div className="App">
@@ -44,14 +44,5 @@ export default (props) => (
     <Card titulo="#01 - Primeiro Componente">
       <Primeiro />
     </Card>
-    {/* <compFilhos>
-  
-        </compFilhos> */}
-    {/* <Primeiro />
-        <CompParametro titulo="Esse é o titulo por parametro" 
-            subtitulo="Esse é o subtitulo por paramentro"/>
-
-        <CompParametro titulo="Opa" 
-            subtitulo="Epa"/> */}
   </div>
 );
